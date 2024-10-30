@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "phpcs": "phpcs --standard=phpcs.xml .",
+        "phpcbf": "phpcbf --standard=phpcs.xml ."
+    },
+    "autoload": {
+        "psr-4": {
+            "BeycanPress\\Chainium\\": "app"
+        }
+    },
+    "require": {
+        "multiplechain/signature-factory": "0.1.2",
+        "beycanpress/csf": "^2.4"
+    }
+}

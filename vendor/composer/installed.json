@@ -1,0 +1,77 @@
+{
+    "packages": [
+        {
+            "name": "beycanpress/csf",
+            "version": "2.4.0",
+            "version_normalized": "2.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeycanPress/csf.git",
+                "reference": "221ef88595f8debf4a25856ebe9a513e3b7515a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeycanPress/csf/zipball/221ef88595f8debf4a25856ebe9a513e3b7515a1",
+                "reference": "221ef88595f8debf4a25856ebe9a513e3b7515a1",
+                "shasum": ""
+            },
+            "time": "2024-10-10T17:56:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Codestar Framework composer package",
+            "homepage": "https://github.com/BeycanPress/csf",
+            "support": {
+                "issues": "https://github.com/BeycanPress/csf/issues",
+                "source": "https://github.com/BeycanPress/csf/tree/2.4.0"
+            },
+            "install-path": "../beycanpress/csf"
+        },
+        {
+            "name": "multiplechain/signature-factory",
+            "version": "0.1.2",
+            "version_normalized": "0.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MultipleChain-PHP/signature-factory.git",
+                "reference": "12bffc98817e19871922208d9120b0db2a826d6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MultipleChain-PHP/signature-factory/zipball/12bffc98817e19871922208d9120b0db2a826d6f",
+                "reference": "12bffc98817e19871922208d9120b0db2a826d6f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-gmp": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.4"
+            },
+            "time": "2024-10-10T06:33:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MultipleChain\\SignatureFactory\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Signature verification for login with crypto wallets.",
+            "homepage": "https://github.com/MultipleChain/signature-factory",
+            "support": {
+                "issues": "https://github.com/MultipleChain/signature-factory/issues",
+                "source": "https://github.com/MultipleChain-PHP/signature-factory/tree/0.1.2"
+            },
+            "install-path": "../multiplechain/signature-factory"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

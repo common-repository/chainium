@@ -1,0 +1,387 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Chainium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 07:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: chainium"
+
+#: app/Entity/User.php:200
+#, php-format
+msgid ""
+"\n"
+"                Welcome aboard %s<br><br>\n"
+"                Username: %s<br>\n"
+"                Password: %s<br>\n"
+"                Address: %s"
+msgstr ""
+
+#: app/Lang.php:34
+msgid "A connection request is already pending, check the wallet plugin!"
+msgstr ""
+
+#: app/Lang.php:45 app/Entity/User.php:153
+msgid "A membership was not found. Do you want to register?"
+msgstr ""
+
+#: app/Settings.php:104
+msgid ""
+"After logging in, which address do you want to be forwarded to? If you type "
+"\"same-page\" it will redirect to the current page."
+msgstr ""
+
+#: app/Settings.php:113
+msgid ""
+"After logout, which address do you want to be forwarded to? If you type "
+"\"same-page\" it will redirect to the current page."
+msgstr ""
+
+#: app/RestAPI.php:252
+msgid "An invalid signature!"
+msgstr ""
+
+#: app/Entity/User.php:48
+msgid "An invalid wallet address!"
+msgstr ""
+
+#: app/Lang.php:40
+msgid "Are you sure you want to remove the matching?"
+msgstr ""
+
+#: app/RestAPI.php:96
+msgid ""
+"Are you sure you want to replace the address below with the new address?"
+msgstr ""
+
+#: app/Settings.php:143 app/Settings.php:148
+msgid "Backup"
+msgstr ""
+
+#. Author of the plugin
+msgid "BeycanPress LLC"
+msgstr ""
+
+#: app/Lang.php:42
+msgid "Cancel"
+msgstr ""
+
+#. Name of the plugin
+#: app/Pages/UserList.php:24
+msgid "Chainium"
+msgstr ""
+
+#. Description of the plugin
+msgid "Chainium is Blockchain Connector for WordPress"
+msgstr ""
+
+#: app/Services/Matching.php:38
+msgid "Change address"
+msgstr ""
+
+#: app/Settings.php:77
+msgid "Data deletion status"
+msgstr ""
+
+#: app/Lang.php:48
+msgid "Email"
+msgstr ""
+
+#: app/Entity/User.php:193
+msgid "Error during creation!"
+msgstr ""
+
+#: app/Lang.php:19
+msgid "Establishing connection please wait!"
+msgstr ""
+
+#: app/Settings.php:72
+msgid "General options"
+msgstr ""
+
+#: app/Services/LoginRegister.php:63
+#, php-format
+msgid "Hello, you are logged in as %s! (<a href=\"%s\">Log out</a>)"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://beycanpress.com/"
+msgstr ""
+
+#: app/Settings.php:85
+msgid "Info"
+msgstr ""
+
+#: app/Pages/UserList.php:53
+msgid "Last login date"
+msgstr ""
+
+#: app/Settings.php:130
+msgid "Let the wallet login button appear on the login page of WooCommerce."
+msgstr ""
+
+#: app/Settings.php:123
+msgid ""
+"Let the wallet login button appear on the WordPress internal login page."
+msgstr ""
+
+#: app/Services/LoginRegister.php:84
+msgid "Log In With a Crypto Wallet"
+msgstr ""
+
+#: app/Lang.php:30
+msgid "Logging in, please wait..."
+msgstr ""
+
+#: app/Settings.php:91
+msgid "Login button shortcode"
+msgstr ""
+
+#: app/Settings.php:103
+msgid "Login redirect url"
+msgstr ""
+
+#: app/Pages/UserList.php:52
+msgid "Login signature"
+msgstr ""
+
+#: app/Settings.php:112
+msgid "Logout redirect url"
+msgstr ""
+
+#: app/Services/Matching.php:42
+msgid "Match your account with your crypto wallet"
+msgstr ""
+
+#: app/Services/Matching.php:35
+msgid "Matched address: "
+msgstr ""
+
+#: app/Pages/UserList.php:54
+msgid "Matched date"
+msgstr ""
+
+#: app/Settings.php:97
+msgid "Matching button shortcode"
+msgstr ""
+
+#: app/Lang.php:17
+msgid "New"
+msgstr ""
+
+#: app/Entity/User.php:196
+msgid "New user registration - Your Password"
+msgstr ""
+
+#: app/Lang.php:21
+msgid "No active chains found, please contact the site administrator."
+msgstr ""
+
+#: app/Lang.php:16
+msgid "Old"
+msgstr ""
+
+#: app/Loader.php:67
+msgid ""
+"Please enter an Reown AppKit ID for Wallet Connection process. - Chainium"
+msgstr ""
+
+#: app/Lang.php:47
+msgid "Please fill out the registration form."
+msgstr ""
+
+#: app/Lang.php:50 app/RestAPI.php:203
+msgid "Please fill out the required fields."
+msgstr ""
+
+#: app/Lang.php:18
+msgid "Please wait..."
+msgstr ""
+
+#: app/Lang.php:46
+msgid "Register"
+msgstr ""
+
+#: app/Lang.php:38 app/Services/Matching.php:39
+msgid "Remove matching"
+msgstr ""
+
+#: app/Lang.php:52
+msgid "Reown AppKit ID not found!"
+msgstr ""
+
+#: app/Lang.php:20
+msgid "Request rejected"
+msgstr ""
+
+#: app/Pages/UserList.php:60
+msgid "Search..."
+msgstr ""
+
+#: app/RestAPI.php:262
+msgid "Signature err, try again."
+msgstr ""
+
+#: app/Lang.php:29
+msgid "Signature request denied!"
+msgstr ""
+
+#: app/Lang.php:28
+msgid "Something went wrong!"
+msgstr ""
+
+#: app/RestAPI.php:186
+msgid "Successfully logged in!"
+msgstr ""
+
+#: app/RestAPI.php:229
+msgid ""
+"Successfully registered & logged in! Your password has been sent to your "
+"email address."
+msgstr ""
+
+#: app/RestAPI.php:168
+msgid "The address change has been successfully completed!"
+msgstr ""
+
+#: app/RestAPI.php:152
+msgid "The matching has been successfully completed!"
+msgstr ""
+
+#: app/RestAPI.php:136
+msgid "The matching has been successfully removed!"
+msgstr ""
+
+#: app/Lang.php:25
+msgid "The wallet you want to connect to could not be detected!"
+msgstr ""
+
+#: app/Lang.php:26
+msgid "There was a problem establishing the connection!"
+msgstr ""
+
+#: app/RestAPI.php:88
+msgid "This account is already paired with the wallet address below!"
+msgstr ""
+
+#: app/RestAPI.php:219
+msgid "This email address is already registered!"
+msgstr ""
+
+#: app/Settings.php:80
+msgid ""
+"This setting is passive come by default. You enable this setting. All data "
+"created by the plug-in will be deleted while removing the plug-in."
+msgstr ""
+
+#: app/Settings.php:92
+msgid "This shortcode is used to display the wallet login button."
+msgstr ""
+
+#: app/Settings.php:98
+msgid ""
+"This shortcode is used to match the wallet address with the user account."
+msgstr ""
+
+#: app/RestAPI.php:221
+msgid "This username is already registered!"
+msgstr ""
+
+#: app/RestAPI.php:108
+msgid "This wallet address has already been matched with another account."
+msgstr ""
+
+#: app/Entity/User.php:278
+msgid "This wallet address has already been paired with another account!"
+msgstr ""
+
+#: app/RestAPI.php:215
+msgid "This wallet address is already paired with an account!"
+msgstr ""
+
+#: app/Lang.php:51
+msgid "Try again"
+msgstr ""
+
+#: app/Pages/UserList.php:50
+msgid "User id"
+msgstr ""
+
+#: app/Pages/UserList.php:23 app/Pages/UserList.php:32
+#: app/Pages/UserList.php:33
+msgid "User List"
+msgstr ""
+
+#: app/Pages/UserList.php:82
+msgid "User list"
+msgstr ""
+
+#: app/Lang.php:49
+msgid "Username"
+msgstr ""
+
+#: app/Pages/UserList.php:51
+msgid "Wallet address"
+msgstr ""
+
+#: app/Lang.php:27
+msgid "WalletConnect Project ID is required for WalletConnect"
+msgstr ""
+
+#: app/Settings.php:127
+msgid "WC Login page button"
+msgstr ""
+
+#: app/Settings.php:120
+msgid "WP Login page button"
+msgstr ""
+
+#: app/Lang.php:41
+msgid "Yes, change address"
+msgstr ""
+
+#: app/Lang.php:39
+msgid "Yes, remove matching"
+msgstr ""
+
+#: app/Lang.php:44
+msgid "You can then change again."
+msgstr ""
+
+#: app/Lang.php:43
+msgid "You can then match again."
+msgstr ""
+
+#: app/RestAPI.php:207
+msgid "You entered an invalid email address!"
+msgstr ""
+
+#: app/RestAPI.php:211
+msgid "You entered an invalid username!"
+msgstr ""
+
+#: app/Entity/User.php:149
+msgid "You have not registered on this site; we cannot log you in."
+msgstr ""
+
+#: app/Lang.php:33
+msgid "You must sign to address change!"
+msgstr ""
+
+#: app/Lang.php:31
+msgid "You must sign to enter!"
+msgstr ""
+
+#: app/Lang.php:32
+msgid "You must sign to remove matching!"
+msgstr ""
